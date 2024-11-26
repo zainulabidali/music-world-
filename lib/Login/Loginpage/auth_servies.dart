@@ -28,7 +28,7 @@ class AuthServies {
     try {
       // Use the FirebaseAuth instance to sign up
       UserCredential userCredential =
-          await _auth.createUserWithEmailAndPassword(
+          await auth.createUserWithEmailAndPassword(
         email: email,
         password: password,
       );
