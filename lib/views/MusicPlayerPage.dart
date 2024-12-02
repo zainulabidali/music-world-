@@ -133,7 +133,7 @@ class _MusicPlayerPageState extends State<MusicPlayerPage>
                     alignment: Alignment.center,
                     children: [
                       Lottie.asset(
-                        'assets/play_time.json',
+                        'assets/playtime01.json',
                         controller: _animationController,
                         width: 300,
                         height: 300,
